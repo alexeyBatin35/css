@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Square+Peg&family=Tapestry&display=swap');
+
+body {
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    font-family: 'Tapestry', cursive;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+h2 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+.header-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.header p {
+    margin: 0;
+    font-style: italic;
+    font-weight: 700;
+    color: #86898f;
+}
+.header-social {
+    width: 130px;
+    height: 50px;
+    display: flex;
+}
+@media (max-width:700px) {
+    .header-social {
+        width: 250px;
+        display:inline-block;
+        text-align: center;
+    }
+}
+.icons {
+    padding: 0 35px;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icons:hover {
+    transform: scale(1.1);
+}
+.wk {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z' fill='%234D76A1'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.0933 34.5261H24.977C24.977 34.5261 25.546 34.4637 25.8365 34.1505C26.1039 33.863 26.0953 33.3231 26.0953 33.3231C26.0953 33.3231 26.0585 30.7955 27.2316 30.4233C28.388 30.0567 29.873 32.8662 31.447 33.9464C32.6372 34.764 33.5416 34.5847 33.5416 34.5847L37.7501 34.5261C37.7501 34.5261 39.9517 34.3905 38.9078 32.6595C38.8222 32.5179 38.2998 31.3791 35.7787 29.0389C33.1399 26.5896 33.4933 26.9858 36.672 22.749C38.6079 20.1688 39.3818 18.5936 39.1401 17.9189C38.9095 17.2763 37.4857 17.4462 37.4857 17.4462L32.7471 17.4757C32.7471 17.4757 32.3959 17.4278 32.1353 17.5835C31.8808 17.7362 31.7169 18.0922 31.7169 18.0922C31.7169 18.0922 30.967 20.0888 29.9667 21.7869C27.8567 25.3699 27.013 25.559 26.6682 25.3365C25.866 24.818 26.0662 23.2534 26.0662 22.142C26.0662 18.6697 26.5929 17.222 25.0408 16.8472C24.5257 16.7227 24.1466 16.6406 22.8293 16.6273C21.1386 16.6098 19.7075 16.6324 18.8972 17.0295C18.3582 17.2934 17.9423 17.8817 18.1956 17.9155C18.5088 17.9574 19.2181 18.1067 19.5941 18.6188C20.0797 19.2794 20.0626 20.7631 20.0626 20.7631C20.0626 20.7631 20.3416 24.8505 19.411 25.3583C18.7723 25.7066 17.8961 24.9955 16.015 21.7449C15.0511 20.0798 14.3234 18.2394 14.3234 18.2394C14.3234 18.2394 14.183 17.8954 13.9328 17.7114C13.629 17.4885 13.2046 17.4175 13.2046 17.4175L8.70178 17.447C8.70178 17.447 8.02582 17.4658 7.77768 17.7598C7.55693 18.0212 7.76014 18.5619 7.76014 18.5619C7.76014 18.5619 11.2854 26.8095 15.277 30.9658C18.937 34.7764 23.0933 34.5261 23.0933 34.5261Z' fill='white'/%3e%3c/svg%3e ");
+}
+.facebook {
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.9999 0C37.2555 0 48 10.746 48 24.0001C48 37.2557 37.2555 48 23.9999 48C10.7443 48 0 37.2555 0 24.0001C0 10.746 10.7445 0 23.9999 0Z' fill='%233B5998'/%3e%3cpath d='M26.9219 16.5224H30.0149V11.9534H26.379V11.9699C21.9734 12.1259 21.0705 14.6024 20.9909 17.2034H20.9819V19.485H17.9819V23.9594H20.9819V35.9533H25.5029V23.9594H29.2064L29.9218 19.485H25.5044V18.1065C25.5044 17.2275 26.0893 16.5224 26.9219 16.5224Z' fill='white'/%3e%3c/svg%3e");
+}
+
+@media (max-width:700px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    object-fit: cover;
+}
+.avater img {
+    width: 100%;
+    height: 100%;
+}
+/* Box Model */
+
+.social {
+    background: rgb(80, 75, 75);
+    padding: 15px;
+}
+.card {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: rgb(242, 229, 229);
+}
+.card li i {
+    width: 15px;
+    padding-right: 15px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.card-content {
+    display: flex;
+    justify-content: center;
+}
+.days {
+    width: 270px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+.monday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+.tuesday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+}
+.wednesday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 45px;
+}
+.thursday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 45px;
+}
+.friday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 45px;
+}
+.saturday::after {
+    content: "3-4ч.";
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 45px;
+}
+.sunday::after {
+    content: "выходной.";
+    display: block;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.days-time {
+    padding-left: 10px;
+    width: 40px;
+}
+.days li:hover {
+    font-weight: 700;
+}
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+.title-2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.contact {
+    margin-bottom: 20px;
+}
+.contact  h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+.btn {
+    position: relative;
+    left: 39%;
+    transform: translate(-39% 0);
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover {
+    opacity: 0.9;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+    outline: 1px solid #000;
+}
+.footer-contact {
+    padding: 10px;
+    background: #e5ffe7;
+    align-items: center;
+    border-radius: 20px;
+}
+.footer-socials {
+    display: flex;
+    justify-content: center;
+}
+.github {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'%3e%3c!--! Font Awesome Pro 6.1.1 by %40fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3e%3cpath d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'/%3e%3c/svg%3e");
+}
